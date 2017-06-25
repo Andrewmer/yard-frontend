@@ -1,79 +1,90 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: FiraSans, sans-serif;
+  background-color: #ececec;
+}
+
+.bitmap {
+  width: 484px;
+  height: 350px;
+  float: left;
+  padding-right: 700px;
+  background-color: white;
+}
 .black {
-	height: 291px;
-	background-color: #161616;
+  background-color: #161616;
+
 }
 
-body{
-	margin: 0px;
+button {
+  background-color: black;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 32px;
+  padding-right: 32px;
+  color: #3e4247;
+  font-size:16px;
+  text-align: center;
+  color: white;
+  border: 0;
 }
 
-.Rectangle-2 {
-	width: 193px;
-  	height: 40px;
-  	border-radius: 2px;
-  	background-color: #000000;
-  	background-color: var(--black-two);
+.card1 {
+  background-color: black;
+  margin-top: 64px;
 }
 .compass-logo {
-	padding-left: 128px;
-	padding-bottom: 20px;
-	padding-top: 20px;
-	width: 179px;
-	height: 24px;
+  padding-top: 20px;
+  padding-bottom: 19px;
+  float: left;
 }
 
 .compass-development-logo {
-	width: 418.9px
-	height: 131px;
-	padding-top: 80px;
-	padding-left: 511px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding-left: 511px;
+  padding-right: 510.1px;
 }
 
-.Discover-Our-New-Dev {
-  width: 356px;
-  height: 37px;
-  font-family: FiraSans;
-  font-size: 24px;
-  font-weight: bold;
+.discover {
+  color: #3e4247;
+  padding-top: 44px;
+}
+
+nav {
+  float: right;
+  margin-top: 24px;
+}
+
+.navigation a {
+  color: black;
+  text-decoration: none;
+}
+
+.navigation a {
+  color: #3e4247;
+}
+
+.layer {
+  margin-right: 32px;
+}
+
+p {
+  color: #3e4247;
+  font-size:16px;
   text-align: center;
-  color: #3e4247;
-  color: var(--charcoal-grey);
 }
 
-.layer1 {
-  width: 52px;
-  height: 16px;
-  font-family: FiraSans;
-  font-size: 16px;
-  line-height: 1;
-  text-align: left;
-  color: #3e4247;
-  color: var(--charcoal-grey);
+.row {
+  justify-content: center;
 }
 
-.layer2 {
-  width: 43px;
-  height: 16px;
-  font-family: FiraSans;
-  font-size: 16px;
-  line-height: 1;
-  text-align: left;
-  color: #3e4247;
-  color: var(--charcoal-grey);
+.sectblack {
+  padding-top: 63px;
 }
 
-.layer3 {
-  width: 99px;
-  height: 16px;
-  font-family: FiraSans;
-  font-size: 16px;
-  line-height: 1;
-  text-align: left;
-  color: #3e4247;
-  color: var(--charcoal-grey);
+.south {
+  float: right;
+  color: black;
 }
-
-.thirdblock {
-	text-align: center;
-}
-
