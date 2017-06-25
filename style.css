@@ -1,1 +1,93 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: FiraSans, sans-serif;
+  background-color: #ececec;
+}
+
+.bitmap {
+  width: 484px;
+  height: 350px;
+  float: left;
+  padding-right: 700px;
+  background-color: white;
+}
+.black {
+  background-color: #161616;
+
+}
+
+button {
+  background-color: black;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 32px;
+  padding-right: 32px;
+  color: #3e4247;
+  font-size:16px;
+  text-align: center;
+  color: white;
+  border: 0;
+}
+
+.card1 {
+  background-color: black;
+  margin-top: 64px;
+}
+.compass-logo {
+  padding-top: 20px;
+  padding-bottom: 19px;
+  float: left;
+}
+
+.compass-development-logo {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding-left: 511px;
+  padding-right: 510.1px;
+}
+
+.discover {
+  color: #3e4247;
+  padding-top: 44px;
+}
+
+nav {
+  float: right;
+  margin-top: 24px;
+}
+
+.navigation a {
+  color: black;
+  text-decoration: none;
+}
+
+.navigation a {
+  color: #3e4247;
+}
+
+.layer {
+  margin-right: 32px;
+}
+
+p {
+  color: #3e4247;
+  font-size:16px;
+  text-align: center;
+}
+
+.row {
+  justify-content: center;
+}
+
+.sectblack {
+  padding-top: 63px;
+}
+
+.south {
+  float: right;
+  color: black;
+}
+
+
 
