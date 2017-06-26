@@ -13,6 +13,7 @@ body {
 }
 .black {
   background-color: #161616;
+  text-align: center;
 
 }
 
@@ -39,7 +40,6 @@ button {
   display: table;
   width: 100%;
   clear: both;
-
 }
 
 .compass-logo {
@@ -51,8 +51,7 @@ button {
 .compass-development-logo {
   padding-top: 80px;
   padding-bottom: 80px;
-  padding-left: 511px;
-  padding-right: 510.1px;
+  text-align: center;
 }
 
 .discover {
@@ -96,6 +95,10 @@ nav {
   color: #3e4247;
 }
 
+.header {
+  background-color: white;
+}
+
 .layer {
   margin-right: 32px;
 }
@@ -103,15 +106,12 @@ nav {
 p {
   color: #3e4247;
   font-size:16px;
+  font-family: FiraSans;
   text-align: center;
 }
 
 .row {
   justify-content: center;
-}
-
-.sectblack {
-  padding-top: 63px;
 }
 
 .south {
