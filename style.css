@@ -8,9 +8,8 @@ body {
 .bitmap {
   width: 484px;
   height: 350px;
+  margin-bottom: 0px;
   float: left;
-  padding-right: 700px;
-  background-color: white;
 }
 .black {
   background-color: #161616;
@@ -31,9 +30,18 @@ button {
 }
 
 .card1 {
-  background-color: black;
+  background-color: white;
   margin-top: 64px;
 }
+
+.clearfix:after {
+  content:'';
+  display: table;
+  width: 100%;
+  clear: both;
+
+}
+
 .compass-logo {
   padding-top: 20px;
   padding-bottom: 19px;
@@ -50,6 +58,28 @@ button {
 .discover {
   color: #3e4247;
   padding-top: 44px;
+}
+
+.east {
+  margin-top: 24px;
+  margin-left: 32px;
+  float: left;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+.mavenue {
+  margin-top: 24px;
+  margin-left: 32px;
+  float: left;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+.midtown {
+  float: left;
 }
 
 nav {
@@ -85,8 +115,27 @@ p {
 }
 
 .south {
-  float: right;
-  color: black;
+  color: #646971;
+  text-transform: uppercase;
+  font-family: Monaco;
+  font-size: 16px;
+  margin-top: 24px;
+  margin-left: 32px;
+  margin-bottom: 0px;
+  float: left;
+
+}
+
+.southdescr {
+  color: #3e4247;
+  margin-top: 24px;
+  margin-left: 32px;
+  float: left;
+  text-align: left;
+}
+
+.test {
+  background-color: grey;
 }
 
 
