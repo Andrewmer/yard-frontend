@@ -4,6 +4,7 @@ body {
   background-color: #eaebf0;
   background-image: url(./background.png);
   background-repeat: repeat;
+  background-size: 50%;
 }
 
 .header {
@@ -17,7 +18,7 @@ body {
   text-align: right;
 }
 
-.header-nav-link {
+.header-link {
   margin-right: 1.5rem;
   font-size: 1rem;
   color: #3e4247;
@@ -39,7 +40,7 @@ body {
   text-align: center;
 }
 
-.discover-title {
+.discover-heading {
   margin-top: 4rem;
   margin-bottom: 0;
   font-weight: bold;
@@ -49,7 +50,7 @@ body {
 }
 
 
-.discover-text {
+.discover-info {
   margin-top: 0.5rem;
   font-family: 'Fira Sans';
   font-size: 1rem;
@@ -84,7 +85,7 @@ body {
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
 }
 
-.card-info {
+.card-details {
   border-bottom: 2px solid #646971;
 }
 
@@ -121,6 +122,65 @@ body {
   width: 484px;
   height: 350px;
 }
+
+.footer {
+  background-color: #111111;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.footer-heading {
+  font-family: "Fira Sans";
+  font-size: 0.875rem;
+  color: #646971;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.footer-info {
+  font-family: "Fira Sans";
+  font-size: 0.875rem;
+  font-weight: 300;
+  color: #a9afb6;
+}
+
+.footer-nav {
+  border-top: solid 2px #3e4247;
+  padding-top: 1rem;
+}
+
+.footer-nav-heading {
+  font-family: "Fira Sans";
+  font-size: 0.875rem;
+  color: #646971;
+  margin-bottom: 7px;
+  margin-top: 1rem;
+}
+
+.footer-link {
+  display: block;
+  text-decoration: none;
+  font-family: "Fira Sans";
+  font-size: 0.875rem;
+  font-weight: 300;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.margin {
+  margin-top: 1.5rem;
+}
+
+.footer-rights {
+  font-family: "Fira Sans";
+  font-size: 11px;
+  font-weight: 300;
+  color: #a9afb6;
+  line-height: 1.5;
+  padding-top: 4.3rem;
+}
+
 
 
 
