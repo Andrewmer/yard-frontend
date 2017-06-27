@@ -1,102 +1,9 @@
-.adress {
-  margin-top: 24px;
-  margin-left: 32px;
-  float: left;
-  font-size: 40px;
-  line-height: 1.4;
-}
-
 body {
   padding: 0px;
-  font-family: FiraSans, sans-serif;
+  font-family: "Fira Sans", sans-serif;
   background-color: #eaebf0;
   background-image: url(./background.png);
   background-repeat: repeat;
-}
-
-.card-img {
-  width: 484px;
-  height: 350px;
-  margin-bottom: 0px;
-  float: left;
-}
-.compass-development {
-  background-color: #161616;
-  text-align: center;
-
-}
-
-.card {
-  background-color: white;
-  margin-top: 64px;
-}
-
-.card-text {
-  color: #3e4247;
-  margin-top: 24px;
-  margin-left: 32px;
-  float: left;
-  text-align: left;
-}
-
-.center {
-  text-align: center;
-}
-
-.compass-logo {
-  width: 179px;
-  height: 24px;
-}
-
-.compass-development-logo {
-  padding-top: 80px;
-  padding-bottom: 80px;
-  text-align: center;
-}
-
-.dscver {
-  color: #3e4247;
-  padding-top: 64px;
-  margin-top: 0px;
-}
-
-.dscver-button {
-  background-color: black;
-  margin-top: 16px;
-  padding-top: 12px;
-  padding-bottom: 12px;
-  padding-left: 32px;
-  padding-right: 32px;
-  color: #3e4247;
-  font-size:16px;
-  text-align: center;
-  color: white;
-  border: 0;
-}
-
-.district {
-  color: #646971;
-  text-transform: uppercase;
-  font-family: Monaco;
-  font-size: 16px;
-  margin-top: 24px;
-  margin-left: 32px;
-  margin-bottom: 0px;
-  float: left;
-}
-
-.dscver-text {
-  margin-top: 8px;
-}
-
-.navigation {
-  float: right;
-  margin-top: 24px;
-}
-
-.navigation a {
-  color: #3e4247;
-  text-decoration: none;
 }
 
 .header {
@@ -105,16 +12,127 @@ body {
   padding-bottom: 1.25rem;
 }
 
-.layer {
-  margin-right: 32px;
+.header-nav {
+  margin-left: auto;
+  text-align: right;
 }
 
-p {
+.header-nav-link {
+  margin-right: 1.5rem;
+  font-size: 1rem;
   color: #3e4247;
-  font-size:16px;
-  font-family: FiraSans;
+  text-decoration: none;
+}
+
+.header-logo {
+  height: 1.5rem;
+}
+
+.development {
+  background-color: #161616;
   text-align: center;
 }
+
+.development-logo {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  text-align: center;
+}
+
+.discover-title {
+  margin-top: 4rem;
+  margin-bottom: 0;
+  font-weight: bold;
+  color: #3e4247;
+  font-family: "Fira Sans";
+  font-size: 1.5rem;
+}
+
+
+.discover-text {
+  margin-top: 0.5rem;
+  font-family: 'Fira Sans';
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: center;
+  color: #3e4247;
+}
+
+.discover-button {
+  background-color: black;
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-family: 'Fira Sans', sans-serif;
+  font-size:1rem;
+  text-align: center;
+  color: white;
+  border: 0;
+}
+
+.card {
+  display: flex;
+  background-color: white;
+  margin-bottom: 3rem;
+}
+
+.hover {
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+.card-info {
+  border-bottom: 2px solid #646971;
+}
+
+.card-district {
+  text-transform: uppercase;
+  color: #646971;
+  margin-top: 1.5rem;
+  margin-left: 2rem;
+  margin-bottom: 1.5rem;
+  font-family: "Monaco", "Menlo", "Consolas", monospace;
+  font-size: 1rem;
+}
+
+.card-address {
+  color: #000000;
+  margin-left: 2rem;
+  margin-bottom: 0.5rem;
+  margin-top: 0px;
+  font-family: "Fira Sans";
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 1.4;
+}
+
+.card-text {
+  margin-left: 2rem;
+  margin-right: 5.375rem;
+  color: #3e4247;
+  font-family: "Fira Sans";
+  line-height: 1.5;
+}
+
+.card-img {
+  width: 484px;
+  height: 350px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
