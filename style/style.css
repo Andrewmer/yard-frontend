@@ -25,10 +25,8 @@ body {
   text-decoration: none;
 }
 
-.header-link-end {
-  font-size: 1rem;
-  color: #3e4247;
-  text-decoration: none;
+.header-link:last-child {
+  margin-right: 0;
 }
 
 .header-logo {
@@ -173,9 +171,12 @@ body {
   color: white;
   margin-bottom: 1rem;
 }
-
-.margin {
+.footer-margin {
   margin-top: 1.5rem;
+}
+
+.footer-img {
+  margin-left: 0.5rem;
 }
 
 .footer-rights {
