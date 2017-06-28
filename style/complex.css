@@ -1,13 +1,18 @@
 body {
   padding: 0px;
   font-family: "Fira Sans", sans-serif;
-  background-color: #eaebf0;
+  background-color: white;
 }
 
 .header {
   background-color: white;
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
+  border-bottom: solid 1px #eaebf0;
+}
+
+.header-logo {
+  height: 1.5rem;
 }
 
 .header-nav {
@@ -22,9 +27,72 @@ body {
   text-decoration: none;
 }
 
-.header-logo {
-  height: 1.5rem;
+.header-link-end {
+  font-size: 1rem;
+  color: #3e4247;
+  text-decoration: none;
 }
+
+
+.title {
+  padding-top: 1.5rem;
+  display: flex;
+  align-items: flex-start;
+}
+
+.title-heading {
+  font-family: "Philosopher";
+  font-size: 2rem;
+  font-weight: bold;
+  color: #3e4247;
+  margin-top: 0;
+}
+
+.title-button {
+  margin-left: auto;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-family: "Fira Sans";
+  font-size: 10px;
+  font-weight: 300;
+  color: #00779a;
+  background-color: white;
+  border: solid 1px #e0e0e1;
+  border-radius: 2px;
+}
+
+.title-adress {
+  font-family: "Fira Sans";
+  font-size: 0.875rem;
+  font-weight: 300;
+  color: #a9afb6;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+
+.images {
+  margin: 0;
+  display: flex;
+  width: auto;
+  height: auto;
+  align-items: center;
+  justify-content: space-between;
+}
+.images-1 {
+}
+
+
+
+
+
+
+
+
+
+
 
 .footer {
   background-color: #111111;
