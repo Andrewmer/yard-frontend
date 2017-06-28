@@ -25,6 +25,12 @@ body {
   text-decoration: none;
 }
 
+.header-link-end {
+  font-size: 1rem;
+  color: #3e4247;
+  text-decoration: none;
+}
+
 .header-logo {
   height: 1.5rem;
 }
@@ -180,20 +186,3 @@ body {
   line-height: 1.5;
   padding-top: 4.3rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
