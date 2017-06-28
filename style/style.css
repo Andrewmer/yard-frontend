@@ -154,14 +154,6 @@ body {
   padding-top: 1rem;
 }
 
-.footer-nav-heading {
-  font-family: "Fira Sans";
-  font-size: 0.875rem;
-  color: #646971;
-  margin-bottom: 7px;
-  margin-top: 1rem;
-}
-
 .footer-link {
   display: block;
   text-decoration: none;
