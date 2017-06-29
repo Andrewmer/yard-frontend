@@ -33,13 +33,13 @@ body {
   text-decoration: none;
 }
 
-.title {
+.complex-main {
   padding-top: 1.5rem;
   display: flex;
   align-items: flex-start;
 }
 
-.title-main {
+.complex-title {
   font-family: "Philosopher";
   font-size: 2rem;
   font-weight: bold;
@@ -48,7 +48,7 @@ body {
   margin-bottom: 0.5rem;
 }
 
-.title-button {
+.complex-button {
   margin-left: auto;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
@@ -63,7 +63,7 @@ body {
   border-radius: 2px;
 }
 
-.title-adress {
+.complex-adress {
   font-family: "Fira Sans";
   font-size: 0.875rem;
   font-weight: 300;
@@ -79,53 +79,35 @@ body {
   align-items: center;
 }
 
-.title-details {
+.complex-details {
   padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
   display: flex;
-  align-items: flex-start;
   border-bottom: solid 1px #e0e0e1;
 }
 
-.title-offers {
+.complex-info {
+  margin-right: 3rem;
+}
+.complex-heading {
   font-family: "Philosopher";
   font-size: 1.5rem;
   font-weight: bold;
   line-height: 1.13;
   color: #3e4247;
   margin-top: 0;
+  margin-bottom: 0px;
 }
 
-.title-architect {
-  font-family: "Philosopher";
-  font-size: 1.5rem;
-  font-weight: bold;
-  line-height: 1.13;
-  color: #3e4247;
-  margin-top: 0;
-  margin-left: 3rem;
-}
-
-.title-group {
-  font-family: "Philosopher";
-  font-size: 1.5rem;
-  font-weight: bold;
-  line-height: 1.13;
-  color: #3e4247;
-  margin-top: 0;
-  margin-left: 3rem;
-}
-
-.heading-small {
-  font-family: "Fira Sans";
+.complex-heading-small {
+  font-family: "Fira Sans", sans-serif;
   font-size: 0.875rem;
   font-weight: 300;
   line-height: 1.57;
   color: #a9afb6;
-}
-
-.character {
-  padding-top: 2rem;
-  align-items: flex-start;
+  display: block;
+  margin-top: 0.625rem;
+  margin-bottom: 0px;
 }
 
 .character-heading {
@@ -138,30 +120,31 @@ body {
   display: block;
 }
 
-dl {
-  display: flex;
+.character-list {
+  margin-bottom: 3rem;
 }
 
-dt {
+.character-static {
   font-family: "Fira Sans";
   font-size: 1rem;
   line-height: 1.38;
-  text-align: left;
   color: #a9afb6;
+  margin-bottom: 11px;
 }
 
-dd {
+.character-dynamic {
   font-family: "Fira Sans";
   font-size: 1rem;
   font-weight: 500;
   line-height: 1.56;
-  text-align: left;
   color: #3e4247;
+  margin-left: 0;
+  margin-bottom: 0;
+  padding-bottom: 0.5rem;
 }
 
 .description {
   display: flex;
-  margin-top: 3rem;
   border-bottom: solid 1px #e0e0e1;
 }
 
@@ -171,7 +154,7 @@ dd {
   font-weight: bold;
   line-height: 1.13;
   color: #3e4247;
-  margin-top: 0;
+  margin: 0;
 }
 
 .description-text {
@@ -180,44 +163,105 @@ dd {
   font-size: 1rem;
   line-height: 1.56;
   color: #3e4247;
-  margin-left: 5.75rem;
+  margin-bottom: 2rem;
 }
 
-.struct {
-  padding-top: 2rem;
-  align-items: flex-start;
+.description-text:last-child {
+  margin-bottom: 1.5rem;
 }
 
-.struct-heading {
+.infrastructure {
+  margin-top: 2rem;
+}
+
+.infrastructure-heading {
   font-family: "Philosopher";
   font-size: 1.5rem;
   font-weight: bold;
   line-height: 1.13;
   color: #3e4247;
-  margin-top: 2rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
   display: block;
 }
 
-.offer {
+.infrastructure-item {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  line-height: 1.38;
+  color: #3e4247;
+}
+
+.offers {
   background-color: #f4f5f9;
+  margin-top: 3.5rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
-.offer-heading {
-  display: flex;
-      justify-content: center;
-}
-.offer-heading2 {
-    font-family: "Philosopher";
-    font-size: 1.5rem;
-    font-weight: bold;
-    line-height: 1.13;
-    color: #3e4247;
-    margin-top: 0;
-}
-
-.cards {
-  display: flex;
+.offers-card {
   background-color: white;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.offers-heading {
+  display: flex;
+  justify-content: center;
+  font-family: Philosopher;
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1.13;
+  color: #3e4247;
+}
+
+.offers-card-heading {
+  font-family: "Philosopher";
+  font-size: 1.25rem;
+  font-weight: bold;
+  line-height: 1.1;
+  color: #3e4247;
+  margin: 0;
+  margin-bottom: 1.5rem;
+}
+
+.offers-card-static {
+  font-family: "Fira Sans";
+  font-size: 1rem;
+  line-height: 1.38;
+  color: #a9afb6;
+  margin: 0;
+  margin-bottom: 0.625rem;
+}
+
+.offers-card-dynamic {
+  font-family: "Fira Sans";
+  font-size: 1rem;
+  line-height: 1.38;
+  color: #3e4247;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+}
+
+.offers-button {
+  margin-top: 0.5rem;
+  margin: 0 auto;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 2.625rem;
+  padding-right: 2.625rem;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 1rem;
+  line-height: 1.0;
+  color: #ffffff;
+  background-color: #000000;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
 }
 
 
