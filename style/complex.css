@@ -33,19 +33,19 @@ body {
   text-decoration: none;
 }
 
-
 .title {
   padding-top: 1.5rem;
   display: flex;
   align-items: flex-start;
 }
 
-.title-heading {
+.title-main {
   font-family: "Philosopher";
   font-size: 2rem;
   font-weight: bold;
   color: #3e4247;
   margin-top: 0;
+  margin-bottom: 0.5rem;
 }
 
 .title-button {
@@ -72,18 +72,153 @@ body {
   margin-bottom: 1rem;
 }
 
-
 .images {
-  margin: 0;
   display: flex;
   width: auto;
   height: auto;
   align-items: center;
-  justify-content: space-between;
-}
-.images-1 {
 }
 
+.title-details {
+  padding-top: 1.5rem;
+  display: flex;
+  align-items: flex-start;
+  border-bottom: solid 1px #e0e0e1;
+}
+
+.title-offers {
+  font-family: "Philosopher";
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1.13;
+  color: #3e4247;
+  margin-top: 0;
+}
+
+.title-architect {
+  font-family: "Philosopher";
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1.13;
+  color: #3e4247;
+  margin-top: 0;
+  margin-left: 3rem;
+}
+
+.title-group {
+  font-family: "Philosopher";
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1.13;
+  color: #3e4247;
+  margin-top: 0;
+  margin-left: 3rem;
+}
+
+.heading-small {
+  font-family: "Fira Sans";
+  font-size: 0.875rem;
+  font-weight: 300;
+  line-height: 1.57;
+  color: #a9afb6;
+}
+
+.character {
+  padding-top: 2rem;
+  align-items: flex-start;
+}
+
+.character-heading {
+  font-family: "Philosopher";
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1.13;
+  color: #3e4247;
+  margin-top: 2rem;
+  display: block;
+}
+
+dl {
+  display: flex;
+}
+
+dt {
+  font-family: "Fira Sans";
+  font-size: 1rem;
+  line-height: 1.38;
+  text-align: left;
+  color: #a9afb6;
+}
+
+dd {
+  font-family: "Fira Sans";
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.56;
+  text-align: left;
+  color: #3e4247;
+}
+
+.description {
+  display: flex;
+  margin-top: 3rem;
+  border-bottom: solid 1px #e0e0e1;
+}
+
+.description-heading {
+  font-family: "Philosopher";
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1.13;
+  color: #3e4247;
+  margin-top: 0;
+}
+
+.description-text {
+  margin-top: 0;
+  font-family: "Fira Sans";
+  font-size: 1rem;
+  line-height: 1.56;
+  color: #3e4247;
+  margin-left: 5.75rem;
+}
+
+.struct {
+  padding-top: 2rem;
+  align-items: flex-start;
+}
+
+.struct-heading {
+  font-family: "Philosopher";
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1.13;
+  color: #3e4247;
+  margin-top: 2rem;
+  display: block;
+}
+
+.offer {
+  background-color: #f4f5f9;
+}
+
+.offer-heading {
+  display: flex;
+      justify-content: center;
+}
+.offer-heading2 {
+    font-family: "Philosopher";
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 1.13;
+    color: #3e4247;
+    margin-top: 0;
+}
+
+.cards {
+  display: flex;
+  background-color: white;
+}
 
 
 
