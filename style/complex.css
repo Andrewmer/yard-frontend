@@ -72,11 +72,28 @@ body {
   margin-bottom: 1rem;
 }
 
-.images {
+.gallery {
   display: flex;
   width: auto;
   height: auto;
   align-items: center;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.gallery-button {
+  position: absolute;
+  padding: 0.5rem 1rem;
+  bottom: 1rem;
+  left: 2rem;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 0.625rem;
+  font-weight: 300;
+  line-height: 1.0;
+  color: #ffffff;
+  border: none;
+  border-radius: 2px;
+  background-color: #00779a;
 }
 
 .complex-details {
@@ -210,6 +227,7 @@ body {
 .offers-heading {
   display: flex;
   justify-content: center;
+  margin-top: 0;
   font-family: Philosopher;
   font-size: 1.5rem;
   font-weight: bold;
@@ -264,13 +282,83 @@ body {
   justify-content: center;
 }
 
+.yakimanka {
+  padding-top: 4rem;
+  padding-bottom: 13.625rem;
+  margin-bottom: 13.265rem;
+  background-color: #3e4247;
+  color: #ffffff;
+}
 
+.yakimanka-title {
+  margin: 0;
+  margin-top: 7.5rem;
+  margin-bottom: 3rem;
+  font-family: "Philosopher";
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #a9afb6;
+}
 
+.yakimanka-heading {
+  margin: 0;
+  margin-bottom: 3rem;
+  font-family: "Philosopher";
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.25;
+  color: #ffffff;
+}
 
+.yakimanka-link {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 1rem;
+  color: #00779a;
+  text-decoration: none;
+}
 
+.yakimanka-map {
+  position: absolute;
+  margin-top: 4rem;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+}
 
+.yakimanka-info {
+  position: absolute;
+  width: 36.5rem;
+  margin-top: 4rem;
+  background-color: #ffffff;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+}
 
+.yakimanka-info-item {
+  padding: 1.5rem;
+  padding-bottom: 1.57rem;
+  box-sizing: border-box;
+  border-bottom: solid 1px #e0e0e1;
+}
 
+.yakimanka-info-item:last-child {
+  border-bottom: 0;
+}
+
+.yakimanka-info-location {
+  display: block;
+  margin: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.38;
+  color: #3e4247;
+}
+
+.yakimanka-info-distance {
+  display: block;
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.38;
+  color: #a9afb6;
+}
 
 
 .footer {
