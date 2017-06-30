@@ -2,141 +2,146 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <title>New Developments - Compass</title>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Sans:300,400,700&amp;subset=cyrillic,cyrillic-ext,latin-ext">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Philosopher">
-  <link rel="stylesheet" href="style/complex.css">
+  <title>New - Compass Development</title>
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Philosopher:700&amp;subset=cyrillic" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css">
+  <link rel="stylesheet" href="style/complex.css">
 </head>
 <body>
   <header class="header">
     <div class="container">
-      <div class="row">
+      <div class="row middle-xs between-xs">
         <img src="img/compass-logo.svg" class="header-logo">
         <nav class="header-nav">
-	        <a class="header-link" href="#">Купить</a>
-	        <a class="header-link" href="#">Снять</a>	
-	        <a class="header-link-end" href="#">Наши агенты</a>	
+          <a class="header-link" href="#">Купить</a>
+          <a class="header-link" href="#">Снять</a>
+          <a class="header-link" href="#">Наши агенты</a>
         </nav>
       </div>
     </div>
   </header>
-  <section class="container">
-    <div class="complex-main">
-        <h1 class="complex-title">Жилой комплекс «Полянка/44»</h1>
-        <button class="complex-button">В избранное</button>
+  <div class="container">
+    <div class="row between-xs">
+      <div class="complex-location">
+        <h1 class="complex-name">Жилой комплекс «Полянка/44»</h1>
+        <p class="complex-adress">Район Якиманка, улица Большая Полянка, дом 44 • 119180</p>
+      </div>
+      <button class="complex-button">В избранное</button>
     </div>
-    <p class="complex-adress">Район Якиманка, улица Большая Полянка, дом 44 • 119180</p>
-  </section>
-  <section class="gallery">
-    <button class="gallery-button">41 фотография</button>
-    <img src="img/bitmap1.png" class="images-1">
-    <img src="img/bitmap2.png">
-    <img src="img/bitmap3.png">
-    <img src="img/bitmap4.png">
-    <img src="img/bitmap5.png">
-  </section>
-  <section class="container">
-    <div class="complex-details">
-      <div class="complex-info">
-        <h2 class="complex-heading">950<small class="complex-heading-small">предложений</small></h2>
+  </div>
+  <div class="complex-gallery">
+    <img src="img/bitmap1.png" alt="" class="complex-gallery-item">
+    <img src="img/bitmap2.png" alt="" class="complex-gallery-item">
+    <img src="img/bitmap3.png" alt="" class="complex-gallery-item">
+    <img src="img/bitmap4.png" alt="" class="complex-gallery-item">
+    <img src="img/bitmap5.png" alt="" class="complex-gallery-item">
+  </div>
+  <div class="container">
+    <div class="gallery-button-margin">
+      <button class="gallery-button">41 фотография</button>
+    </div>
+  </div>
+  <div class="container">
+    <section class="details">
+      <div class="details-item">
+        <h2 class="details-heading">950<small class="details-heading-small">предложений</small></h2>
       </div>
-      <div class="complex-info">
-        <h2 class="complex-heading">John McAslan + Partners<small class="complex-heading-small">архитектор</small></h2>
+      <div class="details-item">
+        <h2 class="details-heading">John McAslan + Partners<small class="details-heading-small">архитектор</small></h2>
       </div>
-      <div class="complex-info">
-        <h2 class="complex-heading">Группа «ПСН»<small class="complex-heading-small">застройщик</small></h2>
+      <div class="details-item">
+        <h2 class="details-heading">Группа «ПСН»<small class="details-heading-small">застройщик</small></h2>
       </div>
+    </section>
+  </div>
+  <section class="charasteristics">
+    <div class="container">
+      <h3 class="charasteristics-heading">Характеристики</h3>
+      <dl class="charasteristics-list">
+        <div class="row">
+          <div class="col-xs-2">
+            <dt class="charasteristics-key">Количество квартир:</dt>
+            <dt class="charasteristics-key">Статус:</dt>
+            <dt class="charasteristics-key">Цены:</dt>
+           </div>
+          <div class="col-xs-2">
+            <dd class="charasteristics-value">1 503</dd>
+            <dd class="charasteristics-value">Квартиры</dd>
+            <dd class="charasteristics-value">от 5.3 до 143.5 млн
+            </dd>
+          </div>
+          <div class="col-xs-2">
+            <dt class="charasteristics-key">Количество квартир:</dt>
+            <dt class="charasteristics-key">Количество квартир:</dt>
+            <dt class="charasteristics-key">Количество квартир:</dt>
+          </div>
+          <div class="col-xs-2">
+            <dd class="charasteristics-value">1 503</dd>
+            <dd class="charasteristics-value">1 503</dd>
+            <dd class="charasteristics-value">1 503</dd>
+          </div>
+          <div class="col-xs-2">
+            <dt class="charasteristics-key">Количество квартир:</dt>
+            <dt class="charasteristics-key">Количество квартир:</dt>
+            <dt class="charasteristics-key">Количество квартир:</dt>
+          </div>
+          <div class="col-xs-2">
+            <dd class="charasteristics-value">1 503</dd>
+            <dd class="charasteristics-value">1 503</dd>
+            <dd class="charasteristics-value">1 503</dd>
+          </div>
+        </div>
+      </dl>
     </div>
   </section>
-  <section class="container">
-    <h2 class="character-heading">Характеристики</h2>
-    <dl class="character-list">
-      <div class="row">
-        <div class="col-xs-2">
-          <dt class="character-static">Количество квартир:</dt>
-          <dt class="character-static">Статус:</dt>
-          <dt class="character-static">Цены:</dt>
-        </div>
-        <div class="col-xs-2">
-          <dd class="character-dynamic">1 503</dd>
-          <dd class="character-dynamic">Квартиры</dd>
-          <dd class="character-dynamic">от 5.3 до 143.5 млн</dd>
-        </div>
-        <div class="col-xs-2">
-          <dt class="character-static">Количество квартир:</dt>
-          <dt class="character-static">Количество квартир:</dt>
-          <dt class="character-static">Количество квартир:</dt>
-        </div>
-        <div class="col-xs-2">
-          <dd class="character-dynamic">1 503</dd>
-          <dd class="character-dynamic">1 503</dd>
-          <dd class="character-dynamic">1 503</dd>
-        </div>
-        <div class="col-xs-2">
-          <dt class="character-static">Количество квартир:</dt>
-          <dt class="character-static">Количество квартир:</dt>
-          <dt class="character-static">Количество квартир:</dt>
-        </div>
-        <div class="col-xs-2">
-          <dd class="character-dynamic">1 503</dd>
-          <dd class="character-dynamic">1 503</dd>
-          <dd class="character-dynamic">1 503</dd>
-        </div>
-      </div>
-    </dl>
-  </section>
-  <section class="container">
-    <div class="description">
+  <section class="description">
+    <div class="container">
       <div class="row">
         <div class="col-xs-2">
           <h3 class="description-heading">Описание</h3>
         </div>
         <div class="col-xs-10">
           <p class="description-text">
-            ВТБ Арена Парк — современный квартал в 10 минутах езды от Кремля. Территория разделена на три зоны: жилой район, центральный стадион «Динамо» и большой спортивный парк.
-          </p>
+            ВТБ Арена Парк — современный квартал в 10 минутах езды от Кремля. Территория разделена на три зоны: жилой район, центральный стадион «Динамо» и большой спортивный парк.</p>
           <p class="description-text">
             Жилой район — это 13 корпусов: апартаменты, штаб-квартира «Динамо», отель «Hyatt Regency Moscow» и четыре современных бизнес-центра. На территории — рестораны, спа-комплекс, фитнес-центр, химчистка, аптеки, магазины и отделения банков. В каждом корпусе
-            работает консьерж и круглосуточная охрана. Для жителей оборудованы технические помещения под хранение колясок и велосипедов, комнаты для домашних животных и уютные вестибюли с мягкими креслами для встреч с друзьями и соседями.
-          </p>
+            работает консьерж и круглосуточная охрана. Для жителей оборудованы технические помещения под хранение колясок и велосипедов, комнаты для домашних животных и уютные вестибюли с мягкими креслами для встреч с друзьями и соседями.</p>
           <p class="description-text">
             Сердце ВТБ Арена Парк — стадион. Под одной крышей расположились музей, торгово-развлекательный комплекс, подземная парковка для гостей и две крупные спортивные арены. Жизнь квартала сосредоточена в этой зоне: здесь можно сходить на концерт или фестиваль,
-            поболеть за любимую команду и купить новую рубашку в торговом комплексе.
-          </p>
+            поболеть за любимую команду и купить новую рубашку в торговом комплексе.</p>
           <p class="description-text">
             Тихий жилой район от шумного стадиона отделяет Парк Физкультуры и Отдыха. Здесь каждый найдет занятие: для детей оборудованы игровые зоны, для подростков — спортивные площадки на открытом воздухе, для взрослых — велосипедные дорожки и зоны отдыха, где
-            можно подышать свежим воздухом во время рабочего перерыва.
-          </p>
+            можно подышать свежим воздухом во время рабочего перерыва.</p>
         </div>
       </div>
     </div>
-  </section> 
-  <section class="container">
-    <div class="infrastructure">
-      <h3 class="infrastructure-heading">Инфраструктура</h3>
+  </section>
+  <section class="structure">
+    <div class="container">
+      <h3 class="structure-heading">Инфраструктура</h3>
       <div class="row">
         <div class="col-xs-2">
-          <div class="infrastructure-item">Бассейн</div>
-          <div class="infrastructure-item">Частная школа</div>
+          <div class="structure-item">Бассейн</div>
+          <div class="structure-item">Частная школа</div>
         </div>
         <div class="col-xs-2">
-          <div class="infrastructure-item">Детский сад</div>
-          <div class="infrastructure-item">Частная школа</div>
+          <div class="structure-item">Детский сад</div>
+          <div class="structure-item">Частная школа</div>
         </div>
         <div class="col-xs-2">
-          <div class="infrastructure-item">Частная школа</div>
-          <div class="infrastructure-item">Частная школа</div>
+          <div class="structure-item">Частная школа</div>
+          <div class="structure-item">Частная школа</div>
         </div>
         <div class="col-xs-2">
-          <div class="infrastructure-item">Бассейн</div>
+          <div class="structure-item">Бассейн</div>
         </div>
         <div class="col-xs-2">
-          <div class="infrastructure-item">Детский сад</div>
+          <div class="structure-item">Детский сад</div>
         </div>
         <div class="col-xs-2">
-          <div class="infrastructure-item">Частная школа</div>
+          <div class="structure-item">Частная школа</div>
         </div>
       </div>
     </div>
@@ -148,78 +153,65 @@
         <div class="col-xs-4">
           <div class="offers-card">
             <h4 class="offers-card-heading">1-комнатные квартиры</h4>
-            <p class="offers-card-static">Площадь</p>
-            <p class="offers-card-dynamic">от 59 до 120 м²</p>
-            <p class="offers-card-static">Стоимость</p>
-            <p class="offers-card-dynamic">от 59 до 120 м²</p>
+            <p class="offers-card-value"><small class="offers-card-key">Площадь</small>от 59 до 120 м²</p>
+            <p class="offers-card-value"><small class="offers-card-key">Стоимость</small>от 20.3 до 84.2 млн руб</p>
             <button class="offers-button">Посмотреть предложения</button>
           </div>
         </div>
         <div class="col-xs-4">
           <div class="offers-card">
-            <h4 class="offers-card-heading">2-комнатные квартиры</h4>
-            <p class="offers-card-static">Площадь</p>
-            <p class="offers-card-dynamic">от 59 до 120 м²</p>
-            <p class="offers-card-static">Стоимость</p>
-            <p class="offers-card-dynamic">от 59 до 120 м²</p>
+            <h4 class="offers-card-heading">1-комнатные квартиры</h4>
+            <p class="offers-card-value"><small class="offers-card-key">Площадь</small>от 59 до 120 м²</p>
+            <p class="offers-card-value"><small class="offers-card-key">Стоимость</small>от 20.3 до 84.2 млн руб</p>
             <button class="offers-button">Посмотреть предложения</button>
           </div>
         </div>
         <div class="col-xs-4">
           <div class="offers-card">
-            <h4 class="offers-card-heading">3-комнатные квартиры</h4>
-            <p class="offers-card-static">Площадь</p>
-            <p class="offers-card-dynamic">от 59 до 120 м²</p>
-            <p class="offers-card-static">Стоимость</p>
-            <p class="offers-card-dynamic">от 59 до 120 м²</p>
+            <h4 class="offers-card-heading">1-комнатные квартиры</h4>
+            <p class="offers-card-value"><small class="offers-card-key">Площадь</small>от 59 до 120 м²</p>
+            <p class="offers-card-value"><small class="offers-card-key">Стоимость</small>от 20.3 до 84.2 млн руб</p>
             <button class="offers-button">Посмотреть предложения</button>
           </div>
         </div>
       </div>
     </div>
   </section>
-  <section class="yakimanka">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-6">
-            <h5 class="yakimanka-title">Якиманка</h5>
-            <h2 class="yakimanka-heading">Исторический центр Москвы в двух<br> километрах от Кремля</h2>
-            <a href="#" class="yakimanka-link">Гид по Якиманке &#x2192;</a>
-          </div>
-          <div class="col-xs-6">
-            <img src="img/polyanka-photo.png" alt="Полянка" class="yakimanka-img">
-          </div>
+  <section class="jakimanka">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-6">
+          <h5 class="jakimanka-heading">Якиманка</h5>
+          <h2 class="jakimanka-description">Исторический центр Москвы в двух<br> километрах от Кремля</h2>
+          <a href="#" class="jakimanka-link">Гид по Якиманке &#x2192;</a>
         </div>
-        <div class="row">
-          <div class="col-xs-6">
-            <img class="yakimanka-map" src="img/map.png" alt="">
-          </div>
-          <div class="col-xs-6">
-            <div class="yakimanka-info">
-              <div class="yakimanka-info-item">
-                <h6 class="yakimanka-info-location">Красный Октябрь</h6>
-                <p class="yakimanka-info-distance">24 минуты, 6 км</p>
-              </div>
-              <div class="yakimanka-info-item">
-                <h6 class="yakimanka-info-location">World class</h6>
-                <p class="yakimanka-info-distance">2 минуты, 300 м</p>
-              </div>
-              <div class="yakimanka-info-item">
-                <h6 class="yakimanka-info-location">Третьяковская галерея</h6>
-                <p class="yakimanka-info-distance">14 минут, 4 км</p>
-              </div>
+        <div class="col-xs-6">
+          <img src="img/polyanka-photo.png" alt="Полянка" class="jakimanka-img">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-6">
+          <img class="jakimanka-map" src="img/map.png" alt="">
+        </div>
+        <div class="col-xs-6">
+          <div class="jakimanka-card">
+            <div class="jakimanka-card-item">
+              <h6 class="jakimanka-card-location">Красный Октябрь</h6>
+              <p class="jakimanka-card-distance">24 минуты, 6 км</p>
+            </div>
+            <div class="jakimanka-card-item">
+              <h6 class="jakimanka-card-location">World class</h6>
+              <p class="jakimanka-card-distance">2 минуты, 300 м</p>
+            </div>
+            <div class="jakimanka-card-item">
+              <h6 class="jakimanka-card-location">Третьяковская галерея</h6>
+              <p class="jakimanka-card-distance">14 минут, 4 км</p>
             </div>
           </div>
         </div>
       </div>
-    </section>
-
-
-
-
-
-
-
+    </div>
+  </section>
   <footer class="footer">
     <div class="container">
       <div class="row">
@@ -227,7 +219,7 @@
           <h4 class="footer-heading">ООО «Ярд»</h4>
           <p class="footer-info">ОГРН 1175074002531</p>
           <p class="footer-info">ИНН 5036165365</p>
-          <p class="footer-info margin">+7 (999) 821-14-88</p>
+          <p class="footer-info footer-margin">+7 (999) 821-14-88</p>
         </div>
         <div class="col-xs-2">
           <nav class="footer-nav">
@@ -235,7 +227,7 @@
             <a class="footer-link" href="#">ВТБ Арена Парк</a>
             <a class="footer-link" href="#">Садовые кварталы</a>
             <a class="footer-link" href="#">Резиденция Монэ</a>
-            <a class="footer-link margin" href="#">Все ЖК Москвы &#x2192;</a>
+            <a class="footer-link footer-margin" href="#">Все ЖК Москвы<img src="img/arrow-icon.svg" class="footer-icon"></a>
           </nav>
         </div>
         <div class="col-xs-2">
@@ -248,13 +240,11 @@
       </div>
       <div class="row">
         <div class="col-xs-8 col-xs-offset-4">
-          <div class="footer-rights">
-            <p>
-              Любая информация, представленная на данном сайте, носит исключительно информационный 
-              характер и ни при каких условиях не является публичной офертой, определяемой положениями 
-              статьи 437 ГК РФ. © ООО «Ярд», 2017
-            </p>
-          </div>
+          <p class="footer-rights">
+            Любая информация, представленная на данном сайте, носит исключительно информационный 
+            характер и ни при каких условиях не является публичной офертой, определяемой положениями 
+            статьи 437 ГК РФ. © ООО «Ярд», 2017
+          </p>
         </div>
       </div>
     </div>
