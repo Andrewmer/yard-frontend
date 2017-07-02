@@ -120,33 +120,47 @@ body {
 }
 
 .charasteristics {
-  padding-bottom: 1.5rem;
+  padding-bottom: 2.5rem;
 }
 
 .charasteristics-heading {
-  margin-top: 2.3rem;;
-  margin-bottom: 0.5rem;
+  margin-top: 2.3rem;
+  margin-bottom: 0;
+  padding-bottom: 1.125rem;
   font-family: "Philosopher", sans-serif;
   font-size: 1.5rem;
   font-weight: bold;
   color: #3e4247;
 }
 
+.charasteristics-list {
+  margin-bottom: 0;
+  margin-top: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .charasteristics-key {
   margin-bottom: 0.7rem;
+  flex: 0 0 50%;
   font-size: 1rem;
-  line-height: 1.38;
   color: #a9afb6;
+  line-height: 1.38;
+
 }
 
 .charasteristics-value {
-  margin-left: 0;
+  margin-left: auto;
+  text-align: left;
+  flex: 0 0 50%;
+  font-weight: 500;
   margin-bottom: 0.5rem;
   font-size: 1rem;
   font-weight: 500;
   line-height: 1.56;
   color: #3e4247;
 }
+
 
 .description {
   margin-bottom: 1.5rem;
