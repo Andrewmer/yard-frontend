@@ -4,6 +4,9 @@ body {
   line-height: 1;
   color: #3e4247;
   background-color: white;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased;
+  -webkit-line-break: after-white-space;
 }
 
 .header {
@@ -146,6 +149,7 @@ body {
   font-size: 1rem;
   color: #a9afb6;
   line-height: 1.38;
+  font-weight: 400;
 
 }
 
@@ -164,7 +168,6 @@ body {
 
 .description {
   margin-bottom: 1.5rem;
-  padding-bottom:
 }
 
 .description-heading {
@@ -362,8 +365,10 @@ body {
   font-size: 0.875rem;
   color: #646971;
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 0.9rem;
   font-weight: bold;
+  line-height: 1.5;
+  font-weight: 700;
 }
 
 .footer-info {
@@ -371,6 +376,7 @@ body {
   font-size: 0.875rem;
   font-weight: 300;
   color: #a9afb6;
+  margin-bottom: 1rem;
 }
 
 .footer-nav {
@@ -400,6 +406,6 @@ body {
   font-size: 11px;
   font-weight: 300;
   color: #a9afb6;
-  line-height: 1.5;
-  padding-top: 4.3rem;
+  line-height: 1.6;
+  padding-top: 4.5rem;
 }
