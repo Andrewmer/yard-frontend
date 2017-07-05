@@ -6,7 +6,7 @@ import Cards from './Cards';
 
 export default () => {
   return (
-    <div className="bg-complexes">
+    <div>
       <Development />
       <Discover />
       <Cards />

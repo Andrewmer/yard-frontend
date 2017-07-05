@@ -12,8 +12,8 @@ import Jakimanka from './Jakimanka';
 
 export default () => {
   return (
-    <BodyClassName className="bg-white">
-      <div className="bg-complex">
+    <BodyClassName className="bg-complex">
+      <div className="App">
         <ComplexName />
         <Gallery />
         <Details />
