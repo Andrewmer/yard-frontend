@@ -1,4 +1,5 @@
 import React from 'react';
+import BodyClassName from 'react-body-classname';
 
 import ComplexName from './ComplexName';
 import Gallery from './Gallery';
@@ -11,15 +12,17 @@ import Jakimanka from './Jakimanka';
 
 export default () => {
   return (
-    <div className="bg-complex">
-      <ComplexName />
-      <Gallery />
-      <Details />
-      <Characteristics />
-      <Description />
-      <Structure />
-      <Offers />
-      <Jakimanka />
-    </div>
+    <BodyClassName className="bg-white">
+      <div className="bg-complex">
+        <ComplexName />
+        <Gallery />
+        <Details />
+        <Characteristics />
+        <Description />
+        <Structure />
+        <Offers />
+        <Jakimanka />
+      </div>
+    </BodyClassName>
   );
 };
