@@ -1,6 +1,7 @@
 import React from 'react';
-import jakimankaImg from './img/polyanka-photo.png';
-import jakimankaMap from './img/map.png';
+import jakimankaImg from '../../img/polyanka-photo.png';
+import jakimankaMap from '../../img/map.png';
+import JakimankaCard from './JakimankaCard';
 
 export default () => {
   return (
@@ -22,18 +23,18 @@ export default () => {
           </div>
           <div className="col-xs-6">
             <div className="jakimanka-card">
-              <div className="jakimanka-card-item">
-                <h6 className="jakimanka-card-location">Красный Октябрь</h6>
-                <p className="jakimanka-card-distance">24 минуты, 6 км</p>
-              </div>
-              <div className="jakimanka-card-item">
-                <h6 className="jakimanka-card-location">World class</h6>
-                <p className="jakimanka-card-distance">2 минуты, 300 м</p>
-              </div>
-              <div className="jakimanka-card-item">
-                <h6 className="jakimanka-card-location">Третьяковская галерея</h6>
-                <p className="jakimanka-card-distance">14 минут, 4 км</p>
-              </div>
+              <JakimankaCard 
+                location="Красный Октябрь"
+                distance="24 минуты, 6 км"
+              />
+              <JakimankaCard 
+                location="World class"
+                distance="2 минуты, 300 м"
+              />
+              <JakimankaCard 
+                location="Третьяковская галерея"
+                distance="14 минут, 4 км"
+              />
             </div>
           </div>
         </div>

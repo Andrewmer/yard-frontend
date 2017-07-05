@@ -1,9 +1,9 @@
 import React from 'react';
-import gallery1 from './img/bitmap1.png'
-import gallery2 from './img/bitmap2.png'
-import gallery3 from './img/bitmap3.png'
-import gallery4 from './img/bitmap4.png'
-import gallery5 from './img/bitmap5.png'
+import gallery1 from '../../img/bitmap1.png'
+import gallery2 from '../../img/bitmap2.png'
+import gallery3 from '../../img/bitmap3.png'
+import gallery4 from '../../img/bitmap4.png'
+import gallery5 from '../../img/bitmap5.png'
 
 export default () => {
   return (
