@@ -1,19 +1,14 @@
 import React from 'react';
-import gallery1 from '../../img/bitmap1.png'
-import gallery2 from '../../img/bitmap2.png'
-import gallery3 from '../../img/bitmap3.png'
-import gallery4 from '../../img/bitmap4.png'
-import gallery5 from '../../img/bitmap5.png'
 
 export default () => {
   return (
     <div className="gallery">
       <div className="complex-gallery">
-        <img src={gallery1} className="complex-gallery-item" />
-        <img src={gallery2} className="complex-gallery-item" />
-        <img src={gallery3} className="complex-gallery-item" />
-        <img src={gallery4} className="complex-gallery-item" />
-        <img src={gallery5} className="complex-gallery-item" />
+        <img src={process.env.PUBLIC_URL + './bitmap1.png'} />
+        <img src={process.env.PUBLIC_URL + './bitmap2.png'} />
+        <img src={process.env.PUBLIC_URL + './bitmap3.png'} />
+        <img src={process.env.PUBLIC_URL + './bitmap4.png'} />
+        <img src={process.env.PUBLIC_URL + './bitmap5.png'} />
       </div>
       <div className="container">
         <div className="gallery-button-margin">

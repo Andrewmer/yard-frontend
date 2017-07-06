@@ -1,5 +1,5 @@
 import React from 'react';
-import developmentLogo from '../../img/compass-development-logo.svg';
+import developmentLogo from '../../compass-development-logo.svg';
 
 export default () => {
   return (

@@ -1,5 +1,4 @@
 import React from 'react';
-import cardimg from '../../img/bitmap.png';
 import { Link } from "react-router-dom";
 
 export default props => {
@@ -7,7 +6,7 @@ export default props => {
     <section className="container">
       <Link to="/complex" className="card">
         <img
-          src={cardimg}
+          src={process.env.PUBLIC_URL + './bitmap.png'}
           className="card-img"
           alt="complex preview"
         />

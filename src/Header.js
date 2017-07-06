@@ -1,5 +1,5 @@
 import React from 'react';
-import headerLogo from './img/compass-logo.svg';
+import headerLogo from './compass-logo.svg';
 
 export default () => {
   return (

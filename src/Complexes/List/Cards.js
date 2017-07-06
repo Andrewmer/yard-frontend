@@ -1,5 +1,4 @@
 import React from 'react';
-import cardimg from '../../img/bitmap.png';
 import Card from './Card';
 
 export default () => {

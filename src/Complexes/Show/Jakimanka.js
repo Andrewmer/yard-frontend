@@ -1,6 +1,5 @@
 import React from 'react';
-import jakimankaImg from '../../img/polyanka-photo.png';
-import jakimankaMap from '../../img/map.png';
+
 import JakimankaCard from './JakimankaCard';
 
 export default () => {
@@ -14,12 +13,19 @@ export default () => {
             <a href="#" className="jakimanka-link">Гид по Якиманке →</a>
           </div>
           <div className="col-xs-6">
-            <img src={jakimankaImg} alt="Полянка" className="jakimanka-img" />
+            <img 
+              src={process.env.PUBLIC_URL + './polyanka-photo.png'} 
+              alt="Полянка" 
+              className="jakimanka-img" 
+            />
           </div>
         </div>
         <div className="row">
           <div className="col-xs-6">
-            <img className="jakimanka-map" src={jakimankaMap} />
+            <img 
+              src={process.env.PUBLIC_URL + './map.png'}
+              className="jakimanka-map" 
+            />
           </div>
           <div className="col-xs-6">
             <div className="jakimanka-card">

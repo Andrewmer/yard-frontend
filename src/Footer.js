@@ -1,5 +1,5 @@
 import React from 'react';
-import arrowIcon from './img/arrow-icon.svg';
+import arrowIcon from './arrow-icon.svg';
 
 export default () => {
   return (
