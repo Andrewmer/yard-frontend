@@ -1,0 +1,13 @@
+body {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 1rem;
+  line-height: 1;
+  background-size: 50%;
+  background-color: #eaebf0;
+  background-image: url('%PUBLIC_URL%/img/background.png');
+  background-repeat: repeat;
+
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased;
+  -webkit-line-break: after-white-space;
+}
