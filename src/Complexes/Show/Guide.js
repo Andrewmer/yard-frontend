@@ -69,7 +69,7 @@ export default () => {
           </Col>
           <Col xs={6}>
             <FieldImg
-              src={process.env.PUBLIC_URL + './polyanka-photo.png'}
+              src={process.env.PUBLIC_URL + './img/polyanka-photo.png'}
               alt="Полянка"
             />
           </Col>
@@ -77,7 +77,7 @@ export default () => {
         <Row>
           <Col xs={6}>
             <MapImg
-              src={process.env.PUBLIC_URL + './map.png'}
+              src={process.env.PUBLIC_URL + './img/map.png'}
               alt="Карта"
             />
           </Col>

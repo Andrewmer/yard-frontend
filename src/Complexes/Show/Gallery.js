@@ -37,11 +37,11 @@ export default () => {
   return (
     <div>
       <Gallery>
-        <Image src={process.env.PUBLIC_URL + './bitmap1.png'} />
-        <Image src={process.env.PUBLIC_URL + './bitmap2.png'} />
-        <Image src={process.env.PUBLIC_URL + './bitmap3.png'} />
-        <Image src={process.env.PUBLIC_URL + './bitmap4.png'} />
-        <Image src={process.env.PUBLIC_URL + './bitmap5.png'} />
+        <Image src={process.env.PUBLIC_URL + './img/bitmap1.png'} />
+        <Image src={process.env.PUBLIC_URL + './img/bitmap2.png'} />
+        <Image src={process.env.PUBLIC_URL + './img/bitmap3.png'} />
+        <Image src={process.env.PUBLIC_URL + './img/bitmap4.png'} />
+        <Image src={process.env.PUBLIC_URL + './img/bitmap5.png'} />
       </Gallery>
       <Grid>
         <ButtonMargin>
