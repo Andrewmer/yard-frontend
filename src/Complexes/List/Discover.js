@@ -45,9 +45,7 @@ export default () => {
           From boutique rental conversions to luxurious ground-up condominiums, 
           browse our portfolio of current offerings.
         </Info>
-        <Button>
-          Contact The Team
-        </Button>
+        <Button>Contact The Team</Button>
       </Col>
     </Row>
   );

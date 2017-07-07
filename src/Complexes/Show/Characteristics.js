@@ -51,68 +51,33 @@ export default props =>
       <Row>
         <Col xs={4}>
           <ListItem>
-            <Key>
-              Количество квартир:
-            </Key>
-            <Value>
-              {props.flat}
-            </Value>
-            <Key>
-              Статус:
-            </Key>
-            <Value>
-              {props.status}
-            </Value>
-            <Key>
-              Цена:
-            </Key>
-            <Value>
-              от {props.price.min} до {props.price.max} млн руб.
-            </Value>
+            <Key>Количество квартир:</Key>
+            <Value>{props.flat}</Value>
+            <Key>Статус:</Key>
+            <Value>{props.status}</Value>
+            <Key>Цена:</Key>
+            <Value>от {props.price.min} до {props.price.max} млн руб.</Value>
           </ListItem>
         </Col>
         <Col xs={4}>
           <ListItem>
-            <Key>
-              Количество квартир:
+            <Key>Количество квартир:</Key>
+            <Value>{props.flat}</Value>
+            <Key>Статус:
             </Key>
-            <Value>
-              {props.flat}
-            </Value>
-            <Key>
-              Статус:
-            </Key>
-            <Value>
-              {props.status}
-            </Value>
-            <Key>
-              Цена:
-            </Key>
-            <Value>
-              от {props.price.min} до {props.price.max} млн руб.
-            </Value>
+            <Value>{props.status}</Value>
+            <Key>Цена:</Key>
+            <Value>от {props.price.min} до {props.price.max} млн руб.</Value>
           </ListItem>
         </Col>
         <Col xs={4}>
           <ListItem>
-            <Key>
-              Количество квартир:
-            </Key>
-            <Value>
-              {props.flat}
-            </Value>
-            <Key>
-              Статус:
-            </Key>
-            <Value>
-              {props.status}
-            </Value>
-            <Key>
-              Цена:
-            </Key>
-            <Value>
-              от {props.price.min} до {props.price.max} млн руб.
-            </Value>
+            <Key>Количество квартир:</Key>
+            <Value>{props.flat}</Value>
+            <Key>Статус:</Key>
+            <Value>{props.status}</Value>
+            <Key>Цена:</Key>
+            <Value>от {props.price.min} до {props.price.max} млн руб.</Value>
           </ListItem>
         </Col>
       </Row>

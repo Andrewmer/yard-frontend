@@ -36,28 +36,13 @@ export default props => {
     <Grid>
       <Details>
         <Item>
-          <Heading>
-            {props.offers}
-          <Subheading>
-            предложений
-          </Subheading>
-          </Heading>
+          <Heading>{props.offers}<Subheading>предложений</Subheading></Heading>
         </Item>
         <Item>
-          <Heading>
-            {props.architect}
-          <Subheading>
-            архитектор
-          </Subheading>
-          </Heading>
+          <Heading>{props.architect}<Subheading>архитектор</Subheading></Heading>
         </Item>
         <Item>
-          <Heading>
-            {props.builder}
-          <Subheading>
-            застройщик
-          </Subheading>
-          </Heading>
+          <Heading>{props.builder}<Subheading>застройщик</Subheading></Heading>
         </Item>
       </Details>
     </Grid>

@@ -26,12 +26,8 @@ const Distance = styled.p`
 export default props => {
   return (
     <Item>
-      <Location>
-        {props.location}
-      </Location>
-      <Distance>
-        {props.distance}
-      </Distance>
+      <Location>{props.location}</Location>
+      <Distance>{props.distance}</Distance>
     </Item>
   );
 };
