@@ -3,9 +3,6 @@ import {
   BrowserRouter as Router,
   Route
 } from 'react-router-dom';
-
-import './complexes.css';
-import './complex.css';
 import './App.css';
 
 import List from './Complexes/List';
