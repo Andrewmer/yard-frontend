@@ -4,6 +4,7 @@ import { Grid, Row } from 'react-flexbox-grid';
 import { Link } from 'react-router-dom';
 import headerLogo from './compass-logo.svg';
 
+
 const Header = styled.header`
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
