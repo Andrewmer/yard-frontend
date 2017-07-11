@@ -47,6 +47,12 @@ const Button = styled.button`
   border: none;
   border-radius: 2px;
   cursor: pointer;
+
+  &:hover,
+  &:active,
+  &:focus {
+    background-color: #414141;
+  }
 `;
 
 export default props =>

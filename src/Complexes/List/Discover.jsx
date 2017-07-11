@@ -33,6 +33,13 @@ const Button = styled.button`
   text-align: center;
   color: white;
   border: 0;
+  cursor: pointer;
+
+  &:hover,
+  &:active,
+  &:focus {
+    background-color: #414141;
+  }
 `;
 
 export default () =>

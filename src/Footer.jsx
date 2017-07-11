@@ -52,6 +52,12 @@ const NavLink = styled(Link)`
   font-weight: 300;
   color: white;
   margin-bottom: 1rem;
+
+  &:hover,
+  &:active,
+  &:focus {
+    text-decoration: underline;
+  }
 `;
 
 const NavLinkLast = styled(Link)`
@@ -63,6 +69,12 @@ const NavLinkLast = styled(Link)`
   color: white;
   margin-bottom: 1rem;
   margin-top: 1.5rem;
+
+  &:hover,
+  &:active,
+  &:focus {
+    text-decoration: underline;
+  }
 `;
 
 const NavIcon = styled.img`
