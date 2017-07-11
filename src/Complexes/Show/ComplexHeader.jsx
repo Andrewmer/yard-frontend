@@ -40,16 +40,13 @@ const Button = styled.button`
 const Location = styled.div`
 `;
 
-export default () => {
-  return (
-    <Grid>
-      <Row between="xs">
-        <Location>
-          <Name>Жилой комплекс «Полянка/44»</Name>
-          <Address>Район Якиманка, улица Большая Полянка, дом 44 • 119180</Address>
-        </Location>
-        <Button>В избранное</Button>
-      </Row>
-    </Grid>
-  );
-};
+export default () =>
+  (<Grid>
+    <Row between="xs">
+      <Location>
+        <Name>Жилой комплекс «Полянка/44»</Name>
+        <Address>Район Якиманка, улица Большая Полянка, дом 44 • 119180</Address>
+      </Location>
+      <Button>В избранное</Button>
+    </Row>
+  </Grid>);

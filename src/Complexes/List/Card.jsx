@@ -52,11 +52,11 @@ const Text = styled.p`
 `;
 
 export default props =>
-  <Card to="/complex">
+  (<Card to="/complex">
     <Img src={props.src} />
     <Details>
       <District>{props.district}</District>
       <Address>{props.address}</Address>
       <Text>{props.children}</Text>
     </Details>
-  </Card>;
+  </Card>);

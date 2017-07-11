@@ -30,19 +30,16 @@ const Logo = styled.img`
   height: 1.5rem;
 `;
 
-export default () => {
-  return (
-    <Header>
-      <Grid>
-        <Row>
-          <Logo src={headerLogo} />
-          <Navigation>
-            <NavLink to="/">Купить</NavLink>
-            <NavLink to="/">Снять</NavLink>	
-            <NavLink to="/">Наши агенты</NavLink>	
-          </Navigation>
-        </Row>
-      </Grid>
-    </Header>
-  );
-};
+export default () =>
+  (<Header>
+    <Grid>
+      <Row>
+        <Logo src={headerLogo} />
+        <Navigation>
+          <NavLink to="/">Купить</NavLink>
+          <NavLink to="/">Снять</NavLink>
+          <NavLink to="/">Наши агенты</NavLink>
+        </Navigation>
+      </Row>
+    </Grid>
+  </Header>);

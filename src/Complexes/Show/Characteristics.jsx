@@ -44,8 +44,8 @@ const Value = styled.dd`
   color: #3e4247;
 `;
 
-export default props => 
-  <Characteristics>
+export default props =>
+  (<Characteristics>
     <Grid>
       <Heading>Характеристики</Heading>
       <Row>
@@ -82,4 +82,4 @@ export default props =>
         </Col>
       </Row>
     </Grid>
-  </Characteristics>;
+  </Characteristics>);

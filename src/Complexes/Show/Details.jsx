@@ -31,20 +31,17 @@ const Subheading = styled.small`
   color: #a9afb6;
 `;
 
-export default props => {
-  return (
-    <Grid>
-      <Details>
-        <Item>
-          <Heading>{props.offers}<Subheading>предложений</Subheading></Heading>
-        </Item>
-        <Item>
-          <Heading>{props.architect}<Subheading>архитектор</Subheading></Heading>
-        </Item>
-        <Item>
-          <Heading>{props.builder}<Subheading>застройщик</Subheading></Heading>
-        </Item>
-      </Details>
-    </Grid>
-  );
-};
+export default props =>
+  (<Grid>
+    <Details>
+      <Item>
+        <Heading>{props.offers}<Subheading>предложений</Subheading></Heading>
+      </Item>
+      <Item>
+        <Heading>{props.architect}<Subheading>архитектор</Subheading></Heading>
+      </Item>
+      <Item>
+        <Heading>{props.builder}<Subheading>застройщик</Subheading></Heading>
+      </Item>
+    </Details>
+  </Grid>);

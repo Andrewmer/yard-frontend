@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Grid, Row, Col } from 'react-flexbox-grid';
+import { Row, Col } from 'react-flexbox-grid';
 
 const Heading = styled.h2`
   margin-top: 4rem;
@@ -35,18 +35,15 @@ const Button = styled.button`
   border: 0;
 `;
 
-export default () => {
-  return (
-    <Row center="xs">
-      <Col xs={8}>
-        <Heading>Discover Our New Development</Heading>
-        <Info>
-          Compass brings a modern approach to new development marketing and sales. 
-          From boutique rental conversions to luxurious ground-up condominiums, 
-          browse our portfolio of current offerings.
-        </Info>
-        <Button>Contact The Team</Button>
-      </Col>
-    </Row>
-  );
-};
+export default () =>
+  (<Row center="xs">
+    <Col xs={8}>
+      <Heading>Discover Our New Development</Heading>
+      <Info>
+        Compass brings a modern approach to new development marketing and sales.
+        From boutique rental conversions to luxurious ground-up condominiums,
+        browse our portfolio of current offerings.
+      </Info>
+      <Button>Contact The Team</Button>
+    </Col>
+  </Row>);
