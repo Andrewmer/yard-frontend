@@ -1,12 +1,15 @@
 {
-    "extends": "airbnb",
-    "plugins": [
-        "react",
-        "jsx-a11y",
-        "jsx",
-        "import"
-    ],
-    "rules": {
-        "react/prop-types": 0
-    }
+  "extends": "airbnb",
+  "env": {
+    "browser": true
+  },
+  "plugins": [
+    "react",
+    "jsx-a11y",
+    "jsx",
+    "import"
+  ],
+  "rules": {
+    "react/prop-types": 0
+  }
 }
