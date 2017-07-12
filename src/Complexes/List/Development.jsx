@@ -1,6 +1,6 @@
 import React from 'react';
-import developmentLogo from '../../compass-development-logo.svg';
 import styled from 'styled-components';
+import developmentLogo from '../../compass-development-logo.svg';
 
 const Development = styled.section`
   background-color: #161616;
@@ -14,10 +14,7 @@ const Logo = styled.img`
   height: 131px;
 `;
 
-export default () => {
-  return (
-    <Development>
-      <Logo src={developmentLogo} />
-    </Development>
-  );
-};
+export default () =>
+  (<Development>
+    <Logo src={developmentLogo} />
+  </Development>);

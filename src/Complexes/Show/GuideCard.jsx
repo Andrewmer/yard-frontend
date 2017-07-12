@@ -23,11 +23,8 @@ const Distance = styled.p`
   color: #a9afb6;
 `;
 
-export default props => {
-  return (
-    <Item>
-      <Location>{props.location}</Location>
-      <Distance>{props.distance}</Distance>
-    </Item>
-  );
-};
+export default props =>
+  (<Item>
+    <Location>{props.location}</Location>
+    <Distance>{props.distance}</Distance>
+  </Item>);

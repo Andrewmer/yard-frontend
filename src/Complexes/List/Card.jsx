@@ -7,9 +7,13 @@ const Card = styled(Link)`
   background-color: white;
   margin-bottom: 3rem;
   text-decoration: none;
+  transition: .3s ease-in;
 
-  &:hover {
-    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+  &:hover,
+  &:active,
+  &:focus {
+    transition: .3s ease-in;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, .3);
   }
 `;
 
@@ -52,11 +56,11 @@ const Text = styled.p`
 `;
 
 export default props =>
-  <Card to="/complex">
+  (<Card to="/complex">
     <Img src={props.src} />
     <Details>
       <District>{props.district}</District>
       <Address>{props.address}</Address>
       <Text>{props.children}</Text>
     </Details>
-  </Card>;
+  </Card>);
