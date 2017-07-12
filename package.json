@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "eslint-plugin-jsx": "^0.0.2",
     "normalize.css": "^7.0.0",
     "react": "^15.6.1",
     "react-body-classname": "^1.2.0",
