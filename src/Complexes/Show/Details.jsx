@@ -35,7 +35,7 @@ export default props =>
   (<Grid>
     <Details>
       <Item>
-        <Heading>{props.offers}<Subheading>предложений</Subheading></Heading>
+        <Heading>{props.count}<Subheading>предложений</Subheading></Heading>
       </Item>
       <Item>
         <Heading>{props.architect}<Subheading>архитектор</Subheading></Heading>

@@ -2,13 +2,16 @@ import React from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
+const imagesPath = 'https://yard-images.s3.amazonaws.com/';
+
 const Card = styled(Link)`
   display: flex;
   background-color: white;
   margin-bottom: 3rem;
   text-decoration: none;
   transition: .3s ease-in;
-
+  border-bottom: 2px solid #646971;
+  
   &:hover,
   &:active,
   &:focus {
@@ -23,7 +26,7 @@ const Img = styled.img`
 `;
 
 const Details = styled.article`
-  border-bottom: 2px solid #646971;
+
 `;
 
 const District = styled.p`
@@ -55,12 +58,15 @@ const Text = styled.p`
   line-height: 1.5;
 `;
 
-export default props =>
-  (<Card to="/complex">
-    <Img src={props.src} />
-    <Details>
-      <District>{props.district}</District>
-      <Address>{props.address}</Address>
-      <Text>{props.children}</Text>
-    </Details>
-  </Card>);
+export default function (props) {
+  return (
+    <Card to={`complex/${props.complex.id}`}>
+      <Img src={`${imagesPath}${props.complex.image.id}-512`} />
+      <Details>
+        <District>{props.complex.location.subLocalityName}</District>
+        <Address>{props.complex.name}</Address>
+        <Text>{props.children}</Text>
+      </Details>
+    </Card>
+  );
+}

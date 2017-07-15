@@ -29,18 +29,16 @@ const Image = styled.img`
   height: 400px;
 `;
 
-export default () =>
+const imagesPath = 'https://yard-images.s3.amazonaws.com/';
+
+export default props =>
   (<div>
     <Gallery>
-      <Image src={`${process.env.PUBLIC_URL}./img/bitmap1.png`} />
-      <Image src={`${process.env.PUBLIC_URL}./img/bitmap2.png`} />
-      <Image src={`${process.env.PUBLIC_URL}./img/bitmap3.png`} />
-      <Image src={`${process.env.PUBLIC_URL}./img/bitmap4.png`} />
-      <Image src={`${process.env.PUBLIC_URL}./img/bitmap5.png`} />
+      {props.complex.images.map(img => <Image src={`${imagesPath}${img.id}-512`} />)}
     </Gallery>
     <Grid>
       <ButtonMargin>
-        <Button>41 фотография</Button>
+        <Button>{props.images.length} фотография</Button>
       </ButtonMargin>
     </Grid>
   </div>);

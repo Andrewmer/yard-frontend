@@ -1,44 +1,35 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { Grid } from 'react-flexbox-grid';
 import Development from './Development';
 import Discover from './Discover';
 import Card from './Card';
 
-export default () =>
-  (<div>
-    <Development />
-    <Grid>
-      <Discover />
-      <Card
-        src={`${process.env.PUBLIC_URL}./img/bitmap.png`}
-        district="SOUTH BEACH, SAN FRANCISCO"
-        address="764 Metropolitan Avenue"
-      >
-        The Lewis Steel Building is a masterful industrial conversion located in
-        the heart of Williamsburg. Located at 76 North 4th Street, the former
-        1930&apos;s steel factory has been transformed into 83 individually unique
-        and luxury loft apartments.
-      </Card>
-      <Card
-        src={`${process.env.PUBLIC_URL}./img/bitmap.png`}
-        district="MIDTOWN EAST, MANHATTAN"
-        address="100 East 53rd Street"
-      >
-        One Hundred East Fifty Third Street by Foster + Partners is a limited
-        collection of modern residences in Midtown Manhattan&apos;s Cultural
-        District. The 94 residences ranging from alcove lofts to four bedrooms
-        within the 63-story tower are generously proportioned
-      </Card>
-      <Card
-        src={`${process.env.PUBLIC_URL}./img/bitmap.png`}
-        district="NOLITA, MANHATTAN"
-        address="152 Elizabeth"
-      >
-        152 Elizabeth is an ultra-luxury condominium building—the first in New
-        York City designed by Japanese master architect Tadao Ando. Located at
-        the corner of Kenmare and Elizabeth Streets in Nolita, the
-        32,000-square-foot building will stand as a profound architectural
-        statement and embrace the industrial character of the neighborhood
-      </Card>
-    </Grid>
-  </div>);
+class Complexes extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      complexes: [],
+    };
+  }
+  componentDidMount() {
+    fetch('https://yard.moscow/api/v1/complexes?filter%5Bstate%5D=public')
+      .then(response => response.json())
+      .then((data) => {
+        console.log(data);
+        this.setState({ complexes: data.items });
+      });
+  }
+  render() {
+    return (
+      <div>
+        <Development />
+        <Grid>
+          <Discover />
+          {this.state.complexes.map(item => <Card complex={item} key={item.id} />)}
+        </Grid>
+      </div>
+    );
+  }
+}
+
+export default Complexes;

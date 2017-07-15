@@ -52,32 +52,37 @@ export default props =>
         <Col xs={4}>
           <ListItem>
             <Key>Количество квартир:</Key>
-            <Value>{props.flat}</Value>
+            <Value>{props.counter}</Value>
             <Key>Статус:</Key>
             <Value>{props.status}</Value>
             <Key>Цена:</Key>
             <Value>от {props.price.min} до {props.price.max} млн руб.</Value>
+            <Key>Безопасность:</Key>
+            <Value>{props.guard}</Value>
           </ListItem>
         </Col>
         <Col xs={4}>
           <ListItem>
-            <Key>Количество квартир:</Key>
-            <Value>{props.flat}</Value>
-            <Key>Статус:
-            </Key>
-            <Value>{props.status}</Value>
-            <Key>Цена:</Key>
-            <Value>от {props.price.min} до {props.price.max} млн руб.</Value>
+            <Key>Конструкция корпусов:</Key>
+            <Value>{props.comstruction}</Value>
+            <Key>Площадь:</Key>
+            <Value>от {props.totalArea.min} до {props.totalArea.max} м²</Value>
+            <Key>Высота потолков:</Key>
+            <Value>{props.ceilheight.min} - {props.ceilheight.max} м</Value>
+            <Key>Обслуживание:</Key>
+            <Value>{props.maintenanceCosts} руб / м² / месяц</Value>
           </ListItem>
         </Col>
         <Col xs={4}>
           <ListItem>
-            <Key>Количество квартир:</Key>
-            <Value>{props.flat}</Value>
-            <Key>Статус:</Key>
-            <Value>{props.status}</Value>
-            <Key>Цена:</Key>
-            <Value>от {props.price.min} до {props.price.max} млн руб.</Value>
+            <Key>Начало строительства:</Key>
+            <Value>{props.startQuarter} квартал {props.startYear} года</Value>
+            <Key>Конец строительства:</Key>
+            <Value>{props.commissioningQuarter} квартал {props.commissioningYear} года</Value>
+            <Key>Наземная парковка:</Key>
+            <Value>{props.parkings}</Value>
+            <Key>Подземная парковка:</Key>
+            <Value>{props.undergroundGarages}</Value>
           </ListItem>
         </Col>
       </Row>
