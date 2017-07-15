@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import BodyClassName from 'react-body-classname';
 import styled from 'styled-components';
 
+import { securityKinds, constructionKinds, quarters } from './Dictionary';
 import ComplexHeader from './ComplexHeader';
 import Gallery from './Gallery';
 import Details from './Details';
